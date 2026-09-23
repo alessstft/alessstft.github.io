@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Я — Бацаценко Алеся Андреевна, и это моё портфолио.</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Prata&family=Onest:wght@400;500;600&family=Caveat:wght@500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+<button class="theme-btn" id="themeBtn" type="button">Сменить свет</button>
+
+<main class="wrap">
+  <header class="hero">
+    <figure class="print-photo">
+      <img src="img/programmer.jpg" alt="Алеся на лесной поляне в закатном свете, с цветком пиона">
+      <figcaption>это я  :)</figcaption>
+    </figure>
+    <div>
+      <h1 class="name"><span class="surname">Бацаценко</span> Алеся Андреевна</h1>
+      <p class="tagline">Мне 18лет. Я переехала из Беларуси и теперь живу в Питере.</p>
+      <p class="intro">Сейчас руковожу IT-проектами. До этого вела команду как тимлид, учила детей программировать, удвоила выручку кофейни и администрировала в детском тире. Каждая работа — отдельный кадр на плёнке ниже, с которой Вы можете ознакомиться подробнее.</p>
+      <nav class="contacts" id="contacts" aria-label="Контакты"></nav>
+    </div>
+  </header>
+
+  <section class="strip-zone" aria-label="Профессии">
+    <p class="note">выберите кадр — узнайте об опыте и обязанностях</p>
+    <div class="strip-scroll">
+      <div class="strip" id="strip" role="tablist" aria-label="Профессии"></div>
+    </div>
+  </section>
+
+  <section class="darkroom" aria-live="polite">
+    <article class="sheet" id="sheet">
+      <div class="big ph-dev" id="big" role="img"></div>
+      <div class="text">
+        <p class="role-meta" id="meta"></p>
+        <h2 class="role-title" id="title"></h2>
+        <p class="lead" id="lead"></p>
+        <div class="branches" id="branches" role="tablist" aria-label="Подробнее"></div>
+        <div class="panel" id="panel" role="tabpanel"></div>
+      </div>
+    </article>
+  </section>
+
+  <footer class="footer">
+    <h2>Есть проект, команда, идея или работа?</h2>
+    <p>Напишите — отвечаю быстро.</p>
+    <nav class="contacts" id="contacts2" aria-label="Контакты"></nav>
+  </footer>
+</main>
+
+<script src="js/config.js"></script>
+<script src="js/roles.js"></script>
+<script src="js/main.js"></script>
+
+</body>
+</html>
