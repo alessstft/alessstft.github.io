@@ -1,6 +1,6 @@
 /* ===== Цвета: светлая тема — контактный лист, тёмная — фотолаборатория ===== */
 :root{
-  --bg:#ECE5D5; --paper:#F6F1E6; --ink:#22291F; --muted:#5E6655;
+  --bg:#d1c6ad; --paper:#d1c4a2; --ink:#2b3423; --muted:#313e26;
   --moss:#3E4A34; --amber:#C98A2E; --peony:#E9B8B2; --pencil:#B8322A;
   --film:#241C14; --film-edge:#D9A441; --line:rgba(34,41,31,.18);
   --serif:"Prata", "Georgia", "Times New Roman", serif;
