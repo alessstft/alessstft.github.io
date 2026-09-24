@@ -43,7 +43,8 @@ const ROLES_EN = [
       {name:'Result', html:()=>'<p class="result">×2</p><p>The coffee shop’s revenue doubled during my time there.</p>'},
       {name:'Social media', html:()=>li(['Ran the coffee shop’s social media','Built strategies and analyzed the results'])},
       {name:'Promos & posters', html:()=>li(['Came up with and launched promotions','Created posters and social media visuals with Figma and AI tools'])},
-      {name:'Analytics', html:()=>'<p>Tracked what worked: which promos paid off, which posts brought in guests, and on which days and hours sales dipped.</p>'}
+      {name:'Analytics', html:()=>'<p>Tracked what worked: which promos paid off, which posts brought in guests, and on which days and hours sales dipped.</p>'},
+      {name:'Certificates', html:()=>'<p>I keep learning marketing and online sales.</p>'+certs(true)}
     ]
   },
   {

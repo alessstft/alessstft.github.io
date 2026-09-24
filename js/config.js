@@ -48,5 +48,30 @@ const CONFIG = {
                'Everything else was on us — from idea to launch.'
       }
     },
+  ],
+
+  // Сертификаты — показываются во вкладке «Сертификаты» у маркетолога.
+  // Чтобы добавить новый: положите картинку в img/certificates/ и скопируйте блок { ... }.
+  certificates: [
+    {
+      img:   'img/certificates/netology-product-marketing.jpg',
+      title: '«Продуктовый маркетинг: как создать продукт, который хотят купить»',
+      org:   'Нетология',
+      year:  '2026',
+      en: {
+        title: 'Product Marketing: How to Build a Product People Want to Buy',
+        org:   'Netology'
+      }
+    },
+    {
+      img:   'img/certificates/hp-life-selling-online.jpg',
+      title: 'Selling Online — продажи в интернете: стратегии онлайн-продаж и маркетинга, карточки товаров, клиентский сервис',
+      org:   'HP LIFE, HP Foundation',
+      year:  '2026',
+      en: {
+        title: 'Selling Online: online sales and marketing strategies, product listings, customer service',
+        org:   'HP LIFE, HP Foundation'
+      }
+    },
   ]
 };

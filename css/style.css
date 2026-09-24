@@ -104,6 +104,14 @@ a{color:inherit}
 .project p{margin:0 0 8px}
 .gh{display:inline-block;font-size:14px;font-weight:600;text-decoration:none;border-bottom:1px solid var(--amber)}
 
+/* ===== Сертификаты ===== */
+.certs{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:20px;margin-top:6px}
+.cert{display:block;text-decoration:none;color:inherit}
+.cert img{width:100%;aspect-ratio:10/7;object-fit:cover;background:#fff;border:1px solid var(--line);box-shadow:0 10px 24px -16px rgba(0,0,0,.5);transition:transform .25s ease}
+.cert:hover img,.cert:focus-visible img{transform:translateY(-3px) rotate(-.6deg)}
+.cert-t{display:block;font-family:var(--serif);font-size:17px;line-height:1.3;margin-top:10px}
+.cert-o{display:block;font-size:14px;color:var(--muted);margin-top:2px}
+
 /* ===== Подвал ===== */
 .footer{border-top:1px solid var(--line);padding:clamp(32px,5vw,56px) 0 40px}
 .footer h2{font-family:var(--serif);font-weight:400;font-size:clamp(30px,4vw,48px);margin:0 0 10px;max-width:18ch;line-height:1.1}
