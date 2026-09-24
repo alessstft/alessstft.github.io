@@ -11,27 +11,29 @@
 
 </head>
 <body>
-<button class="theme-btn" id="themeBtn" type="button">Сменить свет</button>
+<div class="controls">
+  <button id="langBtn" type="button" lang="en">EN</button>
+  <button id="themeBtn" type="button" data-i18n="theme">Сменить свет</button>
+</div>
 
 <main class="wrap">
   <header class="hero">
     <figure class="print-photo">
-      <img src="img/programmer.jpg" alt="Алеся на лесной поляне в закатном свете, с цветком пиона">
-      <figcaption>это я  :)</figcaption>
+      <img src="img/programmer.jpg" data-i18n-alt="photoAlt" alt="Алеся на лесной поляне в закатном свете, с цветком пиона">
+      <figcaption data-i18n="caption">это я  :)</figcaption>
     </figure>
     <div>
-      <h1 class="name"><span class="surname">Бацаценко</span> Алеся Андреевна</h1>
-      <p class="tagline">Обо мне:   
-        Мне 18лет. Студентка 4 курса колледжа по направлению "Разработка программного обеспечения".</p>
-      <p class="intro">На данном этапе руковожу IT-проектами. До этого вела команду как тимлид, учила детей программировать, удвоила выручку кофейни и администрировала в детском тире. Каждая работа — отдельный кадр на плёнке ниже, с которой Вы можете ознакомиться подробнее.</p>
-      <nav class="contacts" id="contacts" aria-label="Контакты"></nav>
+      <h1 class="name" data-i18n="name"><span class="surname">Бацаценко</span> Алеся Андреевна</h1>
+      <p class="tagline" data-i18n="tagline">Обо мне: мне 18 лет. Студентка 4 курса колледжа по направлению "Разработка программного обеспечения".</p>
+      <p class="intro" data-i18n="intro">На данном этапе руковожу IT-проектами. До этого вела команду как тимлид, учила детей программировать, удвоила выручку кофейни и администрировала в детском тире. Каждая работа — отдельный кадр на плёнке ниже, с которой Вы можете ознакомиться подробнее.</p>
+      <nav class="contacts" id="contacts" data-i18n-aria="contacts" aria-label="Контакты"></nav>
     </div>
   </header>
 
-  <section class="strip-zone" aria-label="Профессии">
-    <p class="note">пролистните и выберите кадр — узнайте об опыте, обязанностях и итогах моей работы</p>
+  <section class="strip-zone" data-i18n-aria="professions" aria-label="Профессии">
+    <p class="note" data-i18n="note">пролистните и выберите кадр — узнайте об опыте, обязанностях и итогах моей работы</p>
     <div class="strip-scroll">
-      <div class="strip" id="strip" role="tablist" aria-label="Профессии"></div>
+      <div class="strip" id="strip" role="tablist" data-i18n-aria="professions" aria-label="Профессии"></div>
     </div>
   </section>
 
@@ -42,21 +44,23 @@
         <p class="role-meta" id="meta"></p>
         <h2 class="role-title" id="title"></h2>
         <p class="lead" id="lead"></p>
-        <div class="branches" id="branches" role="tablist" aria-label="Подробнее"></div>
+        <div class="branches" id="branches" role="tablist" data-i18n-aria="details" aria-label="Подробнее"></div>
         <div class="panel" id="panel" role="tabpanel"></div>
       </div>
     </article>
   </section>
 
   <footer class="footer">
-    <h2>Есть проект, команда, идея или работа?</h2>
-    <p>Напишите или звоните — отвечаю быстро!</p>
-    <nav class="contacts" id="contacts2" aria-label="Контакты"></nav>
+    <h2 data-i18n="footerTitle">Есть проект, команда, идея или работа?</h2>
+    <p data-i18n="footerText">Напишите или звоните — отвечаю быстро!</p>
+    <nav class="contacts" id="contacts2" data-i18n-aria="contacts" aria-label="Контакты"></nav>
   </footer>
 </main>
 
 <script src="js/config.js"></script>
 <script src="js/roles.js"></script>
+<script src="js/roles.en.js"></script>
+<script src="js/i18n.js"></script>
 <script src="js/main.js"></script>
 <script src="js/analytics.js"></script>
 
